@@ -1,0 +1,6 @@
+Here is the instruction to create build for OpenGL project on the computer (Windows) : 
+create a subfolder 'build'
+
+In this subfolder, run :
+cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ ..
+
